@@ -13,6 +13,7 @@
 		A244D7DF277E2F2B00DE66AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A244D7DD277E2F2B00DE66AE /* Main.storyboard */; };
 		A244D7E1277E2F2C00DE66AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A244D7E0277E2F2C00DE66AE /* Assets.xcassets */; };
 		A244D7E4277E2F2C00DE66AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A244D7E2277E2F2C00DE66AE /* LaunchScreen.storyboard */; };
+		A244D7EC277E2F5C00DE66AE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244D7EB277E2F5C00DE66AE /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A244D7E0277E2F2C00DE66AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A244D7E3277E2F2C00DE66AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A244D7E5277E2F2C00DE66AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A244D7EB277E2F5C00DE66AE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A244D7D7277E2F2B00DE66AE /* AppDelegate.swift */,
 				A244D7D9277E2F2B00DE66AE /* SceneDelegate.swift */,
+				A244D7ED277E2F6000DE66AE /* Singleton */,
 				A244D7DB277E2F2B00DE66AE /* ViewController.swift */,
 				A244D7DD277E2F2B00DE66AE /* Main.storyboard */,
 				A244D7E0277E2F2C00DE66AE /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				A244D7E5277E2F2C00DE66AE /* Info.plist */,
 			);
 			path = PatternsExample;
+			sourceTree = "<group>";
+		};
+		A244D7ED277E2F6000DE66AE /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				A244D7EB277E2F5C00DE66AE /* Settings.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				A244D7DC277E2F2B00DE66AE /* ViewController.swift in Sources */,
 				A244D7D8277E2F2B00DE66AE /* AppDelegate.swift in Sources */,
+				A244D7EC277E2F5C00DE66AE /* Settings.swift in Sources */,
 				A244D7DA277E2F2B00DE66AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +318,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +346,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

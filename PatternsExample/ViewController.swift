@@ -8,12 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let square: UIView = {
+        let view = UIView()
+        view.frame = Settings.shared.squareSize
+        view.backgroundColor = Settings.shared.squareColor
+        return view
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.addSubview(square)
+        square.center = view.center
     }
-
-
 }
 
