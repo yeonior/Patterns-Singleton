@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A244D7D4277E2F2B00DE66AE /* PatternsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A244D7D4277E2F2B00DE66AE /* Patterns-Singleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patterns-Singleton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A244D7D7277E2F2B00DE66AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A244D7D9277E2F2B00DE66AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A244D7DB277E2F2B00DE66AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		A244D7CB277E2F2B00DE66AE = {
 			isa = PBXGroup;
 			children = (
-				A244D7D6277E2F2B00DE66AE /* PatternsExample */,
+				A244D7D6277E2F2B00DE66AE /* Patterns-Singleton */,
 				A244D7D5277E2F2B00DE66AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		A244D7D5277E2F2B00DE66AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A244D7D4277E2F2B00DE66AE /* PatternsExample.app */,
+				A244D7D4277E2F2B00DE66AE /* Patterns-Singleton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A244D7D6277E2F2B00DE66AE /* PatternsExample */ = {
+		A244D7D6277E2F2B00DE66AE /* Patterns-Singleton */ = {
 			isa = PBXGroup;
 			children = (
 				A244D7D7277E2F2B00DE66AE /* AppDelegate.swift */,
@@ -67,7 +67,7 @@
 				A244D7E2277E2F2C00DE66AE /* LaunchScreen.storyboard */,
 				A244D7E5277E2F2C00DE66AE /* Info.plist */,
 			);
-			path = PatternsExample;
+			path = "Patterns-Singleton";
 			sourceTree = "<group>";
 		};
 		A244D7ED277E2F6000DE66AE /* Singleton */ = {
@@ -95,7 +95,7 @@
 			);
 			name = PatternsExample;
 			productName = PatternsExample;
-			productReference = A244D7D4277E2F2B00DE66AE /* PatternsExample.app */;
+			productReference = A244D7D4277E2F2B00DE66AE /* Patterns-Singleton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A244D7CF277E2F2B00DE66AE /* Build configuration list for PBXProject "PatternsExample" */;
+			buildConfigurationList = A244D7CF277E2F2B00DE66AE /* Build configuration list for PBXProject "Patterns-Singleton" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -303,7 +303,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PatternsExample/Info.plist;
+				INFOPLIST_FILE = "Patterns-Singleton/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,8 +314,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = YeoCompany.PatternsExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Patterns-Singleton";
+				PRODUCT_NAME = "Patterns-Singleton";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -331,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PatternsExample/Info.plist;
+				INFOPLIST_FILE = "Patterns-Singleton/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,8 +342,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = YeoCompany.PatternsExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Patterns-Singleton";
+				PRODUCT_NAME = "Patterns-Singleton";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A244D7CF277E2F2B00DE66AE /* Build configuration list for PBXProject "PatternsExample" */ = {
+		A244D7CF277E2F2B00DE66AE /* Build configuration list for PBXProject "Patterns-Singleton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A244D7E6277E2F2C00DE66AE /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/yeomac/Desktop/XcodeProjects/PatternsExample/Patterns-Singleton.xcodeproj">
    </FileRef>
 </Workspace>
